@@ -1,0 +1,264 @@
+/* Ceci est mon framework CSS. Entierement édité par Jean Eude NGOUDONO, ce fichier est la propriété exclusive de ce dernier*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+                                    /* Famille de texte et type de Police*/
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+    font-size: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+                                                /* CONTENEURS */
+
+
+
+                                            /* Conteneur large */
+
+.conteneur-large {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: auto;
+}
+
+   
+
+                    /*---------------------------------------------------------------------*/
+
+
+                                            /* Conteneur moyen */
+
+.conteneur-moyen {
+        width: 80%;
+        margin: auto;
+        height: auto;
+}
+
+
+                    /*---------------------------------------------------------------------*/
+
+
+                                            /* Sections */
+
+.sec {
+        width: 100%;
+        display: flex;
+}
+
+
+                    /*---------------------------------------------------------------------*/
+
+
+                                            /* Responsive design */
+
+
+
+
+
+
+                    /*---------------------------------------------------------------------*/
+
+
+                                                /* Colonnes */
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+
+
+[class*="col-"] {
+    padding: 2px 15px 2px 15px;
+  }
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+                                                /* TYPE DE TEXTE */
+
+
+
+                                            /* Paragraphe et titre */
+
+
+h1{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+h3{
+    font-size: 1.75rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+h4{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+h5{
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+h6{
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+                    /*---------------------------------------------------------------------*/
+
+
+                                            /* Alignement de texte */
+
+.t-center {
+    text-align: center; /* (Aligne le texte en milieu) */
+}
+.t-left {
+    text-align: left; /* (Aligne le texte à gauche) */
+}
+.t-right {
+    text-align: right; /* (Aligne le texte à droite) */
+}
+.t-justify {
+    text-align: justify; /* (Aligne le texte de façon équitable) */
+}
+
+
+
+
+                                            /* Décoration de texte */
+
+.t-decor-no {
+    text-decoration: none; /* (Enlève le soulignement des liens) */
+}
+
+
+
+
+                                                /* Style de texte */
+
+.t-ital {
+    font-style: italic; /* (Met le texte en italique) */
+}
+.t-obl {
+    font-style: oblique;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+                                                /* COULEURS */
+
+
+
+                                            /* Couleurs simple */
+.colo-blue{
+    color: rgb(0 0 255) ;
+}
+.colo-red {
+    color: rgb(255 0 0);
+}
+.colo-noir {
+    color: rgb(0 0 0);
+}
+.colo-gris {
+    background-color: rgb(120 120 120);
+}
+.colo-or {
+    color: rgb(255 165 0);
+}
+
+                                            /* Couleurs composée */
+
+/* Couleurs dégradées */
+
+
+
+                            /*---------------------------------------------------------------------*/
+
+
+                                          /* Couleurs d'arrière plan */
+
+.bg-blue {
+    background-color: rgb(0 0 255) ;
+}
+.bg-red {
+    background-color: rgb(255 0 0);
+}
+.bg-noir {
+    background-color: rgb(0 0 0);
+}
+.bg-gris {
+    background-color: rgb(120 120 120);
+}
+.bg-gris-claire {
+    background-color: rgb(180 180 180);
+}
+.bg-blc {
+    background-color: rgb(255 255 255);
+}
+.bg-vert {
+    background-color: rgb(0 187 71);
+}
+.bg-or {
+    background-color: rgb(255 165 0);
+}
+
+
